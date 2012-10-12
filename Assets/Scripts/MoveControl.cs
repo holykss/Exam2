@@ -11,6 +11,8 @@ public class MoveControl : MonoBehaviour {
 	
 	public GameObject missile;
 	
+	public AnimationClip flyBack;
+	
 	private int fireSeq = 0;
 	
 	// Use this for initialization
@@ -24,7 +26,7 @@ public class MoveControl : MonoBehaviour {
 		float h = Input.GetAxis("Horizontal");
 		float v = Input.GetAxis ("Vertical");
 		
-//		transform.Translate(Vector3.forward * Time.deltaTime * speed);
+		transform.Translate(Vector3.forward * Time.deltaTime * speed);
 		
 		transform.Rotate (Vector3.up * Time.deltaTime * h * 10.0f);
 		
@@ -56,6 +58,15 @@ public class MoveControl : MonoBehaviour {
 				missile2.rigidbody.AddForce(firePos2.transform.forward * 50500.0f);
 			}
 
+		}
+		
+		if (Input.GetButtonDown("Fire1"))
+		{
+			if (!animation.isPlaying)
+			{
+				animation.clip = flyBack;
+				animation.Play();
+			}
 		}
 	
 	}
