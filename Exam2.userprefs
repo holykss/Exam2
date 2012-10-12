@@ -1,23 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraMinimap.cs">
     <Files>
       <File FileName="..\Exam1\Assets\02.Scripts\PlayerControl.js" Line="45" Column="20" />
-      <File FileName="Assets\Scripts\MoveControl.cs" Line="74" Column="1" />
+      <File FileName="Assets\Scripts\MoveControl.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\gzMain.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\define.cs" Line="18" Column="1" />
+      <File FileName="Assets\Scripts\define.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Mig.cs" Line="22" Column="5" />
+      <File FileName="Assets\Scripts\CameraMinimap.cs" Line="13" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="MoveControl.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

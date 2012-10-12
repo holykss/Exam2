@@ -19,6 +19,7 @@ public class Mig : MonoBehaviour {
 		tr = GetComponent<Transform>();
 		playerTr = GameObject.Find ("fighter").GetComponent<Transform>();
 		
+		//Mathf.SmoothDampAngle
 //		fire1 = GetComponentInChildren<Transform>
 		
 		tr.LookAt(playerTr);
