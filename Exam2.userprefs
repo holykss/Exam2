@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\Exam1\Assets\02.Scripts\PlayerControl.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveFly.cs">
     <Files>
       <File FileName="..\Exam1\Assets\02.Scripts\PlayerControl.js" Line="45" Column="20" />
       <File FileName="Assets\Scripts\MoveControl.cs" Line="1" Column="1" />
@@ -9,6 +9,7 @@
       <File FileName="Assets\Scripts\Mig.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CameraMinimap.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Global.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MoveFly.cs" Line="10" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
